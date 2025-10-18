@@ -37,3 +37,18 @@ This model eliminates the need for:
 - Dedicated servers to host the game’s server build.
 - Relay or matchmaking servers that would be necessary in a Peer-to-Peer setup.
 As a result, it reduces hosting and maintenance costs significantly.
+
+## Networking Architecture and Prediction
+
+Given that the Supervisor and Operator are in the same location and on the same LAN, and that the Supervisor monitors every step taken by the Operator, there is no need to implement Client-Side Prediction for the Operator.
+
+Instead:
+- The Operator can directly update their Transform (position, rotation, etc.).
+- These updates are then sent to the Server (Supervisor) for synchronization.
+
+In this controlled LAN-based environment, prediction layers is unnecessary, simplifying the implementation.
+
+
+## Alternative Setup: Remote Connection via VPN
+
+If the Supervisor and Operator are not connected to the same LAN, we can use a Virtual Private Network (VPN) to simulate a private local connection. Through a VPN tunnel, the Operator will be able to see the Supervisor’s device and connect to it directly as if both were on the same local network.
