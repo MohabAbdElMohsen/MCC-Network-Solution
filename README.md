@@ -23,6 +23,8 @@ This means that whenever an Operator wants to start a training session, they wil
 
 ## Network Architecture Diagram
 
+The following diagram illustrates the network architecture used in our setup. The Supervisor acts as the host (server) while the Operator connects as a client over the local network (LAN). This structure ensures direct and efficient communication between both devices without external routing.
+
 <img width="2160" height="1480" alt="Blank diagram (3)" src="https://github.com/user-attachments/assets/37da08cd-8a71-499c-af03-be91be14440d" />
 
 <img width="2160" height="1480" alt="Blank diagram (5)" src="https://github.com/user-attachments/assets/98eae661-50c3-42a0-819f-7ad961ccb98f" />
