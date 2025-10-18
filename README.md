@@ -21,6 +21,13 @@ In this model:
 
 This means that whenever an Operator wants to start a training session, they will simply connect to the Supervisor’s device, which hosts the server instance locally.
 
+## Network Architecture Diagram
+
+<img width="2160" height="1480" alt="Blank diagram (3)" src="https://github.com/user-attachments/assets/37da08cd-8a71-499c-af03-be91be14440d" />
+
+<img width="2160" height="1480" alt="Blank diagram (5)" src="https://github.com/user-attachments/assets/98eae661-50c3-42a0-819f-7ad961ccb98f" />
+
+
 ## Benefits of Using a Host-Client (Listen Server) Model
 
 1. Performance
