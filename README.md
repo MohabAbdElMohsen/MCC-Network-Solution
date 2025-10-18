@@ -61,3 +61,6 @@ In this controlled LAN-based environment, prediction layers is unnecessary, simp
 ## Alternative Setup: Remote Connection via VPN
 
 If the Supervisor and Operator are not connected to the same LAN, we can use a Virtual Private Network (VPN) to simulate a private local connection. Through a VPN tunnel, the Operator will be able to see the Supervisor’s device and connect to it directly as if both were on the same local network.
+
+<img width="2162" height="423" alt="VPN Tunnel" src="https://github.com/user-attachments/assets/00d02a70-9da4-4f57-80f7-85d633a65e71" />
+
