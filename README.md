@@ -6,7 +6,7 @@ Selecting the optimal network topology for a multiplayer game can sometimes be c
 
 ## Game Structure Overview
 
-Our game revolves around two main players:
+MCC revolves around two main players:
 - Operator: the trainee who actively participates in the training session.
 - Supervisor: the instructor who observes and monitors the Operator’s performance during the session.
 
