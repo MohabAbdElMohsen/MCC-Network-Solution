@@ -1,6 +1,6 @@
 # MCC-Network-Solution
 
-# Choosing the Right Network Topology for Our Multiplayer Game
+# Choosing the Right Network Topology
 
 Selecting the optimal network topology for a multiplayer game can sometimes be challenging. However, by analyzing the structure and gameplay mechanics of our project, the best option becomes clearer.
 
@@ -29,7 +29,6 @@ The following diagram illustrates the network architecture used in our setup. Th
 
 <img width="2160" height="1480" alt="Blank diagram (5)" src="https://github.com/user-attachments/assets/98eae661-50c3-42a0-819f-7ad961ccb98f" />
 
-
 ## Benefits of Using a Host-Client (Listen Server) Model
 
 1. Performance
@@ -57,10 +56,8 @@ Instead:
 
 In this controlled LAN-based environment, prediction layers is unnecessary, simplifying the implementation.
 
-
 ## Alternative Setup: Remote Connection via VPN
 
 If the Supervisor and Operator are not connected to the same LAN, we can use a Virtual Private Network (VPN) to simulate a private local connection. Through a VPN tunnel, the Operator will be able to see the Supervisor’s device and connect to it directly as if both were on the same local network.
 
 <img width="2162" height="423" alt="VPN Tunnel" src="https://github.com/user-attachments/assets/00d02a70-9da4-4f57-80f7-85d633a65e71" />
-
