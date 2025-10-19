@@ -37,12 +37,6 @@ The following diagram illustrates the network architecture used in our setup. Th
 
 3. **Simplicity and Fewer Networking Issues:** Using a LAN-based connection helps avoid common network complications, such as NAT traversal, port forwarding, or relay server dependencies.
 
-4. Cost Efficiency
-This model eliminates the need for:
-- Dedicated servers to host the game’s server build.
-- Relay or matchmaking servers that would be necessary in a Peer-to-Peer setup.
-As a result, it reduces hosting and maintenance costs significantly.
-
 ## Networking Architecture and Prediction
 
 Given that the Supervisor and Operator are in the same location and on the same LAN, and that the Supervisor monitors every step taken by the Operator, there is no need to implement Client-Side Prediction for the Operator.
