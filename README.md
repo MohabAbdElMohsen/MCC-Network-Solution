@@ -42,7 +42,7 @@ The following diagram illustrates the network architecture used in our setup. Th
 Given that the Supervisor and Operator are in the same location and on the same LAN, and that the Supervisor monitors every step taken by the Operator, there is no need to implement Client-Side Prediction for the Operator.
 
 Instead:
-- The Operator can directly update their Transform (position, rotation, etc.).
+- The Operator can directly update their Transform (position, rotation, etc.), and their biometrics.
 - These updates are then sent to the Server (Supervisor) for synchronization.
 
 In this controlled LAN-based environment, prediction layers is unnecessary, simplifying the implementation.
