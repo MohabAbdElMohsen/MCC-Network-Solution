@@ -31,14 +31,11 @@ The following diagram illustrates the network architecture used in our setup. Th
 
 ## Benefits of Using a Host-Client (Listen Server) Model
 
-1. Performance
-Since all network traffic remains within the local network, the overall performance will be faster and more stable compared to solutions that rely on external servers or the internet.
+1. **Performance:** Since all network traffic remains within the local network, the overall performance will be faster and more stable compared to solutions that rely on external servers or the internet.
 
-2. Security
-Traffic confined within the LAN greatly improves security. No external internet routing means the connection is isolated from external access or interception attempts.
+2. **Security:** Traffic confined within the LAN greatly improves security. No external internet routing means the connection is isolated from external access or interception attempts.
 
-3. Simplicity and Fewer Networking Issues
-Using a LAN-based connection helps avoid common network complications, such as NAT traversal, port forwarding, or relay server dependencies.
+3. **Simplicity and Fewer Networking Issues:** Using a LAN-based connection helps avoid common network complications, such as NAT traversal, port forwarding, or relay server dependencies.
 
 4. Cost Efficiency
 This model eliminates the need for:
